@@ -3,7 +3,7 @@ email:              sarrahbastaw@gmail.com
 description:        A Place for me to blog about anything and everything in my tech career
 author:             Sarrah Bastawala
 baseurl:            "/blogs"
-url:                "https://sarrah-basta.github.io/"
+url:                "https://sarrah-basta.github.io"
 
 # Social Profiles
 twitter_username:
