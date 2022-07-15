@@ -6,7 +6,7 @@ baseurl:            "/blogs"
 url:                "https://sarrah-basta.github.io/"
 
 # Social Profiles
-twitter_username:   SBootstrap
+twitter_username:
 github_username:    sarrah-basta
 facebook_username:
 instagram_username: sarrahb__ 
@@ -23,3 +23,5 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+theme: jekyll-theme-clean-blog
