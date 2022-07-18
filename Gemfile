@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", ">= 3.8.5"
 
 gem "jekyll-theme-minimal", "~> 0.2.0"
-
+gem "kramdown-parser-gfm"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1.0"
