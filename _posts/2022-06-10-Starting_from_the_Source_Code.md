@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Starting from the Source Code"
-subtitle: "Introducing my GSoC Project at GNU Octave."
+title: "Introducing my GSoC Project at GNU Octave"
+subtitle: "Starting from the Source Code."
 date: 2022-06-10
 background: '/img/posts/gsococtave.png'
 tags: gsoc

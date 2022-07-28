@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Devil is in the Details"
-subtitle: "Coding Progress made in weeks 4-5 for GSoC '22."
+title: "GSoC Progress Report : Weeks 4-5"
+subtitle: "The Devil is in the Details"
 date: 2022-07-21
 background: '/img/posts/gsococtave.png'
 tags: gsoc

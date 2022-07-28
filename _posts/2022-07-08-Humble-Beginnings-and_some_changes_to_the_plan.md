@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Humble Beginnings ... and some changes to the plan"
-subtitle: "A concise report of weeks 1-3 of my project in GSoC '22."
+title: "GSoC Progress Report : Weeks 1-3"
+subtitle: " Humble Beginnings ... and some changes to the plan."
 date: 2022-07-08
 background: '/img/posts/gsococtave.png'
 tags: gsoc
