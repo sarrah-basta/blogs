@@ -11,15 +11,17 @@ tags: gsoc
 <br>
 
 ## Important Links 
-The discussion for the code and changes lives at : [Submission via Patch Tracker]() <br>
+The discussion for the code and changes lives at : [Submission via Patch Tracker](https://savannah.gnu.org/patch/?10278) <br>
 The discussion with the community lives at : [Discourse Topic - Ode15{i,s} Project Page ](https://octave.discourse.group/t/gsoc-2022-project-ode15-i-s/1343?u=sarrah-basta) <br>
 The repository worked on during the project is maintained at : [Octave Github Mirror](https://github.com/sarrah-basta/octave.git) <br>
 
 ## The Project from a bird's eye view
 
-  My project was [Ode15{i,s}  : Matlab Compatible Solvers](https://summerofcode.withgoogle.com/programs/2022/projects/fg4hsOK0), and as the name suggests revolved around two specific solvers from the [set provided by Octave](https://docs.octave.org/v4.4.0/Matlab_002dcompatible-solvers.html) for initial value problems for Ordinary Differential Equations that have a MATLAB-compatible interface. My project was a continuation to the initial implementation of these during [GSoC '16](https://summerofcode.withgoogle.com/archive/2016/projects/6106026155704320), and focused on improving the current state of the solvers, heavily involved with the [SUNDIALS Library](https://computing.llnl.gov/projects/sundials) used in the backend. <br>
+My project was [Ode15{i,s}  : Matlab Compatible Solvers](https://summerofcode.withgoogle.com/programs/2022/projects/fg4hsOK0), and as the name suggests revolved around two specific solvers from the [set provided by Octave](https://docs.octave.org/v4.4.0/Matlab_002dcompatible-solvers.html) for initial value problems for Ordinary Differential Equations that have a MATLAB-compatible interface. My project was a continuation to the initial implementation of these during [GSoC '16](https://summerofcode.withgoogle.com/archive/2016/projects/6106026155704320), and focused on improving the current state of the solvers, heavily involved with the [SUNDIALS Library](https://computing.llnl.gov/projects/sundials) used in the backend. <br>
+The main problem to be solved stemmed from the fact that [SUNDIALS IDA](https://sundials.readthedocs.io/en/v6.2.0/ida/index.html) made use of the [KLU Library](https://github.com/DrTimothyAldenDavis/SuiteSparse/tree/master/KLU) for **sparse computations**. Any issue in linking this with respect to SUNDIALS, so as to generate the SUNLINSOL_KLU Linear Solver Interface, which packaged versions of SUNDIALS are often not compiled with (yes, even for widely popular operating systems such as [Ubuntu 20.04](https://octave.discourse.group/t/help-for-build-octave-7-1-0-on-ubuntu-20-04-wsl2/2910/2#:~:text=Yes%2C%20I%20think,the%20case%20indeed.), this resulted in the entire computation being carried out using **dense Jacobian matrices** instead, causing the user huge hits in terms of performance ! <br>
+Hence, this project effectively created an [interface to SUNDIALS IDA API, using Octave's own classes and solvers](https://computing.llnl.gov/projects/sundials/release-history#:~:text=Changes%20to%20SUNDIALS%20in%20major%20release%20v5.0.0), also simultaeneously taking advantage of [not having to create copies](https://wiki.octave.org/Projects#:~:text=Matlab%2Dcompatible%20ODE%20solvers%20in%20core%2DOctave) of the data in SUNDIALS as well as Octave's vectorized operations, creating a safety net for the end user such that sparse computations are **never disabled** in the Ode15{i,s} solvers.
 
-
+## Effects of the project for the end user
 - **Final Results** <br>
 
 Along with using Octave's implementations for Sparse Solvers, I added support for the dense implementations, and I could now test against the full implementation using SUNDIALS Dense Solver as well ! Here are the final results :
