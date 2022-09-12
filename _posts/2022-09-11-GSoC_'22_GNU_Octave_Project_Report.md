@@ -10,6 +10,16 @@ tags: gsoc
 # ode15{i,s} : Matlab Compatible DAE solvers
 <br>
 
+## Important Links 
+The discussion for the code and changes lives at : [Submission via Patch Tracker]() <br>
+The discussion with the community lives at : [Discourse Topic - Ode15{i,s} Project Page ](https://octave.discourse.group/t/gsoc-2022-project-ode15-i-s/1343?u=sarrah-basta) <br>
+The repository worked on during the project is maintained at : [Octave Github Mirror](https://github.com/sarrah-basta/octave.git) <br>
+
+## The Project from a bird's eye view
+
+  My project was [Ode15{i,s}  : Matlab Compatible Solvers](https://summerofcode.withgoogle.com/programs/2022/projects/fg4hsOK0), and as the name suggests revolved around two specific solvers from the [set provided by Octave](https://docs.octave.org/v4.4.0/Matlab_002dcompatible-solvers.html) for initial value problems for Ordinary Differential Equations that have a MATLAB-compatible interface. My project was a continuation to the initial implementation of these during [GSoC '16](https://summerofcode.withgoogle.com/archive/2016/projects/6106026155704320), and focused on improving the current state of the solvers, heavily involved with the [SUNDIALS Library](https://computing.llnl.gov/projects/sundials) used in the backend. <br>
+
+
 - **Final Results** <br>
 
 Along with using Octave's implementations for Sparse Solvers, I added support for the dense implementations, and I could now test against the full implementation using SUNDIALS Dense Solver as well ! Here are the final results :
