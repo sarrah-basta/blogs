@@ -35,6 +35,6 @@ In everything mentioned above, I have tried to best of my ability to use as many
 - **Goals for next week** <br>
   I believe according to our discussions the next steps would be : 
   - Making the SUNMatrix Custom Implementation also work with [wrappers to functions instead of entries](https://github.com/sarrah-basta/octave/blob/42ed2792119d4225341c6d8ca81e8b093225834e/no-klu/src/sunmatrix_oct.h#L80)
-  - The following [four functions only](https://sundials.readthedocs.io/en/latest/sunmatrix/SUNMatrix_package_links.html#sunmatrix-functions-used-by-ida) would have to be changed if we are to work with our own Linear Solver.
+  - Just the following [four functions](https://sundials.readthedocs.io/en/latest/sunmatrix/SUNMatrix_package_links.html#sunmatrix-functions-used-by-ida) would have to be changed if we are to work with our own Linear Solver.
   - Deciding on an example to test the SUNMatrix implementation and if we should test it with another solver such as KLU or first make our own custom implementation of the Linear Solver
   - Discussion on which linear solver from octave should be used
