@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Multi Agent Systems : From Reinforcement Learning to Large Language Models"
-subtitle: "A review of exiting literature conducted for my upcoming GSoC Project at Orthogonal Research and Education Lab"
+title: "Multi Agent Systems : From RL to LLMs"
+subtitle: "A review of exsiting literature conducted for my upcoming GSoC Project at Orthogonal Research and Education Lab"
 date: 2024-05-16
-background: '/img/posts/gsococtave.png'
+background: '/img/posts/gsocorel.png'
 tags: gsoc, llm, ai
 ---
 
-# Understanding Multi-Agent Systems : The Need for Collaboration
+# Multi-Agent Systems : The Need for Collaboration
 
 Imagine a team of robots, each with its own job. They're like players on a soccer field, working together to score goals that none could achieve alone. In multi-agent systems (MAS), these autonomous agents must communicate and work in harmony to tackle tasks too big for any single one.
 
