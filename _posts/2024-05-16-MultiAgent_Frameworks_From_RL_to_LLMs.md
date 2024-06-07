@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Multi Agent Systems : From Reinforcement Learning to Large Language Models"
-subtitle: "A review of exiting literature conducted for my upcoming GSoC Project at Orthogonal Research and Education Lab"
+title: "Multi Agent Systems : From RL to LLMs"
+subtitle: "A review of exsiting literature conducted for my upcoming GSoC Project at Orthogonal Research and Education Lab"
 date: 2024-05-16
-background: '/img/posts/gsococtave.png'
+background: '/img/posts/gsocorel.png'
 tags: gsoc, llm, ai
 ---
 
-# Understanding Multi-Agent Systems : The Need for Collaboration
+# Multi-Agent Systems : The Need for Collaboration
 
-Imagine a team of robots, each with its own job. They're like players on a soccer field, working together to score goals that none could achieve alone. In multi-agent systems (MAS), these autonomous agents must communicate and work in harmony to tackle tasks too big for any single one.
+Imagine a team of robots, each with its own job. They're like players on a soccer field, working together to score goals that none could achieve alone. Similarly in multi-agent systems (MAS), these autonomous agents must communicate and work in harmony to tackle tasks too big for any single one.
 
 In such setups, coordination is key—it's the glue holding everything together. Agents have no playbook or past examples to rely on; they need to figure things out as they go along. Whether it’s conducting complex experiments or something as simple as making dinner, every agent constantly evaluates how best to contribute their skills.
 
@@ -92,7 +92,7 @@ By leveraging the advanced capabilities of LLMs, ChatDev demonstrates a powerful
 
 <p align="center"><img src="https://github.com/HumanoidAgents/HumanoidAgents/raw/main/img/front_page.png" width="600" height="400" /> Humanoid Agents</p>
 
-The paper on Humanoid Agents introduces a groundbreaking approach to collaborative multi-agent systems by utilizing Large Language Models (LLMs) to simulate human-like generative agents. This methodology enhances our understanding and implementation of complex, collaborative behaviors among agents, closely mimicking **real-world human interactions**. The core innovation lies in the use of LLMs, to generate realistic agent behaviors and interactions, enabling nuanced and adaptive collaboration.
+The paper on Humanoid Agents builds on an earlier paper on Generative Agents, that presents a groundbreaking approach to collaborative multi-agent systems by utilizing Large Language Models (LLMs), and uses it to simulate human-like generative agents. This methodology enhances our understanding and implementation of complex, collaborative behaviors among agents, closely mimicking **real-world human interactions**. The core innovation lies in the use of LLMs, to generate realistic agent behaviors and interactions, enabling nuanced and adaptive collaboration.
 
 #### The starting point : Agent Initialization & Metrics
 Here, each agent is endowed with detailed attributes, including a name, age, daily routine, personality traits, and an initial emotional state. For instance, an agent might be initialized as `John Lin, a friendly pharmacy shopkeeper`, with <u><b>basic needs</u></b> such as `fullness` and `social interaction` set to mid-levels. This setup ensures that agents start with <u>realistic, relatable profiles</u> that influence their subsequent behaviors and decisions.
@@ -116,4 +116,6 @@ By focusing on collaborative behaviors and utilizing the advanced capabilities o
 2. Communicative agents for software development. arXiv.Org. [https://arxiv.org/abs/2307.07924](https://arxiv.org/abs/2307.07924) 
 
 
-3. Humanoid agents: Platform for simulating human-like generative agents. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. [http://dx.doi.org/10.18653/v1/2023.emnlp-demo.15](http://dx.doi.org/10.18653/v1/2023.emnlp-demo.15)
+3. Generative Agents: Interactive Simulacra of Human Behavior. arXiv preprint [https://arxiv.org/abs/2304.03442](arXiv:2304.03442 (2023)).
+
+4. Humanoid agents: Platform for simulating human-like generative agents. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. [http://dx.doi.org/10.18653/v1/2023.emnlp-demo.15](http://dx.doi.org/10.18653/v1/2023.emnlp-demo.15)
