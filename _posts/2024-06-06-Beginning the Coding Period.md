@@ -194,6 +194,8 @@ After the design, I began developing code to fine-tune models using prompt tunin
 **Testing Conversation Ability**:
 - Utilizing RAG for understanding context.
 
+The code for the above can be browsed at [github.com/OREL-group/GSoC](https://github.com/OREL-group/GSoC/tree/0f3d8acb923195c7c778a4fa268ce1bfac894629/Open%20Source%20Sustainibility%20using%20LLMs/Preliminary%20Design). The commit made was [0f3d8ac](https://github.com/OREL-group/GSoC/commit/0f3d8acb923195c7c778a4fa268ce1bfac894629). 
+
 ## Conclusion : Summary of the Work done so far 
 
 The design of this simulation framework was a significant step towards understanding the dynamics of open-source communities. By modeling various aspects such as agent communication, issue resolution, and productivity metrics, I aimed to identify strategies that can enhance community sustainability. Future iterations of this project will refine the agent behaviors and introduce more sophisticated metrics to provide deeper insights. 
