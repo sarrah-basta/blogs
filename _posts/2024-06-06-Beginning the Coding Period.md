@@ -3,7 +3,7 @@ layout: post
 title: "Beginning the coding period"
 subtitle: "Stage 1 : Requirements Gathering and Preliminary Design"
 date: 2024-06-06
-background: '/img/posts/gsococtave.png'
+background: '/img/posts/gsocorel.png'
 tags: gsoc, llm, ai
 ---
 
