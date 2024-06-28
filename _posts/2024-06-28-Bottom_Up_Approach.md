@@ -135,4 +135,4 @@ The primary outcome of this phase is the `reviewed_pr.py` file, which automates 
 4. **Documentation**
    - Documented the entire process to ensure reproducibility and ease of understanding for future contributors.
 
-By automating the pull request lifecycle, I have streamlined the process of identifying and solving issues, creating and submitting pull requests, and reviewing and merging changes. This is a big step towards the upcoiming phases of this project.
+By automating the pull request lifecycle, I have streamlined the process of identifying and solving issues, creating and submitting pull requests, and reviewing and merging changes. This is a big step towards the upcoming phases of this project.
