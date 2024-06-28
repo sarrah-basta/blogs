@@ -136,3 +136,5 @@ The primary outcome of this phase is the `reviewed_pr.py` file, which automates 
    - Documented the entire process to ensure reproducibility and ease of understanding for future contributors.
 
 By automating the pull request lifecycle, I have streamlined the process of identifying and solving issues, creating and submitting pull requests, and reviewing and merging changes. This is a big step towards the upcoming phases of this project.
+
+All of the code for this can be found at [the OREL-group GSOC repository](https://github.com/OREL-group/GSoC/tree/f62af05b7422321e1a9e044add668399b53343be/Open%20Source%20Sustainibility%20using%20LLMs).
