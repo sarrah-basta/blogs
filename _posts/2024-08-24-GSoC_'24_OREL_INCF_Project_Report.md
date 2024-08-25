@@ -174,7 +174,17 @@ LLAMOSC integrates multiple capabilities to automate and optimize open-source co
 
 > After my exhilirating journey of `GSoC @ INCF` in the past few months, I am proud of a lot of things, but mostly of myself, for having been able to absorb even tiny bits from the vast knowledge of my mentors and peers, this priceless experience of each up, down, error and success in the lines of code written by me giving me much to look forward to in a future career in development, research and open-source.
 
-I am grateful and extremely thankful to the entire community at Orthogonal Research Lab, with everyone from experienced researchers  to even fellow GSoC contributors never hesitant to contribute to every discussion, ranging from interdisciplinary research, to building framework and debugging errors. I have carried out most of the discussion throughout my project at the [Weekly meets uploaded on youtube](https://www.youtube.com/watch?v=D3Q9Eo22Ua0&list=PL4RJ4xCetB61jIwYV_nY_Iqg4lm8pxN5j&pp=iAQB) and am truly amazed at the inclusivity and collaborative spirit of everyone here, making my first deep-dive into open-source an extremely cherished experience!
+I am grateful and extremely thankful to the entire community at Orthogonal Research Lab, with everyone from experienced researchers  to even fellow GSoC contributors never hesitant to contribute to every discussion, ranging from interdisciplinary research, to building framework and debugging errors. I have carried out most of the discussion throughout my project at the [Weekly meets uploaded on youtube](https://www.youtube.com/watch?v=D3Q9Eo22Ua0&list=PL4RJ4xCetB61jIwYV_nY_Iqg4lm8pxN5j&pp=iAQB) and am truly amazed at the inclusivity and collaborative spirit of everyone here, making my deep-dive into open-source and research an extremely cherished experience!
 <br>
 
-I hope to see this project to its completion and keep contributing to Orthogonal Research Lab.
+I hope to keep contributing to this project as well as Orthogonal Research Lab.
+
+### References
+
+- Shanahan, M., McDonell, K., & Reynolds, L. (2023, May 25). Role-Play with large language models. [arXiv.Org](https://arxiv.org/abs/2305.16367)
+- Xi, Z., Chen, W., Guo, X., He, W., Ding, Y., Hong, B., Zhang, M., Wang, J., Jin, S., Zhou, E., Zheng, R., Fan,
+X., Wang, X., Xiong, L., Zhou, Y., Wang, W., Jiang, C., Zou, Y., Liu, X., … Gui, T. (2023, September 14). 
+The rise and potential of large language model based agents: A survey. [arXiv.Org](https://arxiv.org/abs/2309.07864)
+- The CodeSpace Environment is based on a paper "AutoCodeRover: Autonomous Program Improvement" and it's open-source code implementation [on github](https://github.com/nus-apr/auto-code-rover) has been used as a dependency in my project.
+- For [decentralized](https://python.langchain.com.cn/docs/use_cases/agent_simulations/multiagent_bidding) and [authoritarian](https://python.langchain.com.cn/docs/use_cases/agent_simulations/multiagent_authoritarian) algorithm approaches : [Langchain Use Cases - Agent Simulations](https://python.langchain.com.cn/docs/use_cases/agent_simulations/)
+- For information about [benevelont-dictator](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel) and [meritocratic](http://oss-watch.ac.uk/resources/meritocraticgovernancemodel) open-source goverenance models : [http://oss-watch.ac.uk/resources/](http://oss-watch.ac.uk/resources/) 
