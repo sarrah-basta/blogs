@@ -146,7 +146,7 @@ LLAMOSC integrates multiple capabilities to automate and optimize open-source co
 
     <p align="center"><img src="https://i.imgur.com/yhiQWzR.png" alt="GUI Simulation Input"/></p>
 
-    <p align="center"><img src="https://i.imgur.com/n3l6ZJJ.png" alt="GUI Simulation Window"/>Graphhical user Interface Simulation Window</p>
+    <p align="center"><img src="https://i.imgur.com/n3l6ZJJ.png" alt="GUI Simulation Window"/>Graphical User Interface Simulation Window</p>
 
 ### Future Improvements <br>
 
