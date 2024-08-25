@@ -42,8 +42,6 @@ tags: gsoc, llm, ai
   </tr>
 </tbody>
 </table>
-<br>
-
 --
 
 ##  A bird's eye overview
