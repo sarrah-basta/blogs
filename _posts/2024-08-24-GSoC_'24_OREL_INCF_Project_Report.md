@@ -142,10 +142,8 @@ LLAMOSC integrates multiple capabilities to automate and optimize open-source co
 - **Graphical User Interface**
     - Intuitive graphical interface for input and visualization of metrics updates within the LLAMOSC framework.
 
-    <p align="center"><img src="https://i.imgur.com/yhiQWzR.png" alt="GUI Simulation Input"/></p>
-
-    <p align="center"><img src="https://i.imgur.com/n3l6ZJJ.png" alt="GUI Simulation Window"/>Graphical User Interface Simulation Window</p>
-
+    <iframe width="680" height="382" src="https://www.youtube.com/embed/NuKh1i70X8Q" title="LLAMOSC (LLM Powered Agent-based Model for Open Source Community Sustainability) Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
 ### Future Improvements <br>
 
 - **Add Collaboration Algorithm for Multiple Agents on a Single Issue**
